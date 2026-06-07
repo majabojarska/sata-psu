@@ -1,0 +1,49 @@
+name: Check KiCad project
+
+on:
+  push:
+    branches:
+      - "*"
+
+  workflow_dispatch:
+
+env:
+  BUILD_DIR: erc
+
+jobs:
+  check:
+    name: Check KiCad project
+    runs-on: ubuntu-latest
+    container:
+      image: "kicad/kicad:10.0"
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          apt update && apt install make -y
+
+      - name: Link KiCad .config dir to root equivalent
+        run: |
+          mkdir -p ~/.config
+          ln -s /home/kicad/.config/kicad ~/.config/kicad
+
+      - name: Create ERC output dir
+        run: mkdir -p ${{ env.BUILD_DIR }}
+
+      - name: Electrical rule check
+        run: |
+          make erc BUILD_DIR=${{ env.BUILD_DIR }}
+
+      - name: Evaluate ERC results
+        run: |
+          set -x
+
+          ls ${{ env.BUILD_DIR }}/*.rpt
+          cat ${{ env.BUILD_DIR }}/*.rpt
+
+          # Fail on any ERC message
+          grep "ERC messages: 0" ${{ env.BUILD_DIR }}/*.rpt
