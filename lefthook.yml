@@ -2,7 +2,7 @@ pre-commit:
   jobs:
     - name: artifacts
       group:
-        parallel: true
+        parallel: false
         jobs:
           - name: schematics
             run: make schematics

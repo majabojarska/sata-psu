@@ -3187,16 +3187,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 134.62) (xy 43.18 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "039bd799-7375-485a-9c1e-105307224bec")
-	)
-	(wire
-		(pts
 			(xy 161.29 109.22) (xy 166.37 109.22)
 		)
 		(stroke
@@ -3234,6 +3224,16 @@
 			(type default)
 		)
 		(uuid "0bceffa3-a8c9-479f-9d7b-7ed4710fd536")
+	)
+	(wire
+		(pts
+			(xy 30.48 64.77) (xy 33.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1a5f8d-5b23-4d9c-b175-2d818694a55f")
 	)
 	(wire
 		(pts
@@ -3344,16 +3344,6 @@
 			(type default)
 		)
 		(uuid "2625917e-dd6d-4bbc-a1e1-c94b69ca0942")
-	)
-	(wire
-		(pts
-			(xy 41.91 134.62) (xy 43.18 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab56d53-274d-46e2-ac49-2c2e7423120c")
 	)
 	(wire
 		(pts
@@ -4157,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 143.51) (xy 44.45 143.51)
+			(xy 41.91 143.51) (xy 44.45 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4207,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 95.25) (xy 41.91 134.62)
+			(xy 41.91 95.25) (xy 41.91 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4324,6 +4314,16 @@
 			(type default)
 		)
 		(uuid "ed301af8-af93-443d-ad4a-397246156114")
+	)
+	(wire
+		(pts
+			(xy 30.48 62.23) (xy 33.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1b76e4-9fb3-4e8c-a333-9a051ce02f20")
 	)
 	(wire
 		(pts
@@ -5098,6 +5098,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe99162-8c64-4e4b-b1df-22420deac895")
+		(property "Reference" "#PWR04"
+			(at 24.13 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8d919d6-caea-44a0-98dc-0d94c42d9c4c")
+		)
+		(instances
+			(project "sata-psu"
+				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 104.14 143.51 90)
 		(unit 1)
@@ -5352,6 +5431,221 @@
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:XT60_YELLOW")
+		(at 38.1 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "480fc71b-a239-4aa8-9e1d-e70cf3b80723")
+		(property "Reference" "Q2"
+			(at 41.91 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20V OUT"
+			(at 41.91 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT60_YELLOW:AMASS_XT60PB-M"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XT60F"
+			(at 41.91 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "MF" "Pololu"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.9 mm"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60%20YELLOW/Pololu/view-part/?ref=eda"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 2222A"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60%20YELLOW/Pololu/view-part/?ref=snap"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "XT60 YELLOW"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 38.1 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "fd753169-63b1-43fe-9db0-9f568823b20c")
+		)
+		(pin "1"
+			(uuid "736d9fdd-eb95-4fe4-9be2-2d88146655a2")
+		)
+		(instances
+			(project "sata-psu"
+				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5699,6 +5993,85 @@
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 30.48 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64220912-7a93-4ef2-b3ea-9c3aea5a557d")
+		(property "Reference" "#PWR05"
+			(at 34.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+20V"
+			(at 26.67 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 30.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fafcf2e-85b3-450f-bb0c-ba047619feec")
+		)
+		(instances
+			(project "sata-psu"
+				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8304,7 +8677,7 @@
 				)
 			)
 		)
-		(property "Description" "XT60F"
+		(property "Description" "XT60M"
 			(at 25.4 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)

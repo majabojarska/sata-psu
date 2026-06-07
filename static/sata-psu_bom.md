@@ -7,6 +7,7 @@
 | D3           | P6KE6V8A              | P6KE6V8A:DIOAD1300W80L670D310                      |   1 |     |
 | F1,F2        | F5A                   |                                                    |   2 |     |
 | Q1           | 20V IN                | XT60_YELLOW:AMASS_XT60PB-M                         |   1 |     |
+| Q2           | 20V OUT               | XT60_YELLOW:AMASS_XT60PB-M                         |   1 |     |
 | R3,R5        | 10k                   |                                                    |   2 |     |
 | R4,R6,R8,R10 | 2k                    |                                                    |   4 |     |
 | R7,R9        | 1k                    |                                                    |   2 |     |
