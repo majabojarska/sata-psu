@@ -6,4 +6,4 @@
 
 Step-down SATA voltage regulator with telemetry capabilities
 
-[![Schematic](static/amp.svg?raw=true)](static/amp.pdf)
+[![Schematic](static/sata-psu.svg?raw=true)](static/sata-psu.pdf)
