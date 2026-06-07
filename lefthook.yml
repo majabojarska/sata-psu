@@ -1,0 +1,18 @@
+pre-commit:
+  jobs:
+    - name: artifacts
+      group:
+        parallel: true
+        jobs:
+          - name: schematics
+            run: make schematics
+            stage_fixed: true
+          - name: bom
+            run: make bom
+            stage_fixed: true
+    - name: check
+      group:
+        parallel: false
+        jobs:
+          - name: erc
+            run: make erc
