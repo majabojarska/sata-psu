@@ -77,4 +77,4 @@ jobs:
         if: ${{ steps.create-pull-request.outputs.pull-request-number }}
         run: gh pr merge --squash --auto "${{ steps.create-pull-request.outputs.pull-request-number }}"
         env:
-          GH_TOKEN: ${{ secrets.AMP_ARTIFACT_UPDATE_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PULL_REQUEST_TOKEN }}
