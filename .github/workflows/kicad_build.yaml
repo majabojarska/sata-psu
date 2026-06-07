@@ -60,7 +60,7 @@ jobs:
         id: create-pull-request
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.AMP_ARTIFACT_UPDATE_GITHUB_TOKEN }}
+          token: ${{ secrets.PULL_REQUEST_TOKEN }}
           branch: update-kicad-artifacts
           commit-message: Update KiCad artifacts
           title: Update KiCad artifacts
