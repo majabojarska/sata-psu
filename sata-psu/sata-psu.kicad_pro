@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "slim-tip-sata-psu.kicad_pro",
+    "filename": "sata-psu.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -739,18 +739,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "slim-tip-sata-psu.kicad_sch",
-        "name": "slim-tip-sata-psu",
+        "filename": "sata-psu.kicad_sch",
+        "name": "sata-psu",
         "uuid": "1d7c372b-e163-454a-b25b-eeda6b106665"
       }
     ],
-    "used_designators": "R1-6,#PWR1-14,C1-4,D1-4,Q1-3,F1-2,U1-6",
+    "used_designators": "R7-10,Q4,U7,#PWR15-16,D5,C1-3,C5-8",
     "variants": []
   },
   "sheets": [
     [
       "1d7c372b-e163-454a-b25b-eeda6b106665",
-      "slim-tip-sata-psu"
+      "sata-psu"
     ]
   ],
   "text_variables": {},
