@@ -4627,14 +4627,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 54.6099 0)
+			(at 177.8 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4795,7 +4794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -5096,14 +5095,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 50.7999 90)
+			(at 24.13 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5263,7 +5261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -5998,14 +5996,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 162.5599 0)
+			(at 96.52 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6085,7 +6082,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 48.768 90)
 			(hide yes)
 			(show_name no)
@@ -6165,7 +6162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 133.35 47.2948 0)
 			(hide yes)
 			(show_name no)
@@ -6634,7 +6631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 120.142 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -6714,7 +6711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 134.62 114.6048 0)
 			(hide yes)
 			(show_name no)
@@ -6795,7 +6792,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-C3_SUPERMINI_TH:MODULE_ESP32-C3_SUPERMINI_TH"
-			(at 246.38 44.45 0)
+			(at 246.38 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6803,7 +6800,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -7139,7 +7135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 121.412 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -7677,7 +7673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 109.5248 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7757,7 +7753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 129.54 35.052 90)
 			(hide yes)
 			(show_name no)
@@ -7839,7 +7835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
 			(at 110.7948 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8002,7 +7998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 193.04 32.258 90)
 			(hide yes)
 			(show_name no)
@@ -8074,14 +8070,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 162.5599 0)
+			(at 40.64 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8161,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 130.81 102.362 90)
 			(hide yes)
 			(show_name no)
