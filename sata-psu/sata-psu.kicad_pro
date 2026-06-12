@@ -485,7 +485,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "library"
+    ]
   },
   "meta": {
     "filename": "sata-psu.kicad_pro",
@@ -744,7 +746,7 @@
         "uuid": "1d7c372b-e163-454a-b25b-eeda6b106665"
       }
     ],
-    "used_designators": "#FLG1-2,U1-2,#PWR8",
+    "used_designators": "R1-8,D1-4,C1-6,#PWR1-6,#FLG1-3,Q1-2,F1-2,U1-5",
     "variants": []
   },
   "sheets": [

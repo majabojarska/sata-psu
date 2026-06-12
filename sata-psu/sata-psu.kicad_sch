@@ -2116,7 +2116,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -21.59 -3.81 0)
 					(length 5.08)
 					(name "IN-"
@@ -2152,7 +2152,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 21.59 -3.81 180)
 					(length 5.08)
 					(name "OUT-"
@@ -2654,6 +2654,12 @@
 		)
 	)
 	(junction
+		(at 96.52 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0153a582-0b4f-4077-8534-9e5cd755f49b")
+	)
+	(junction
 		(at 123.19 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2714,10 +2720,22 @@
 		(uuid "54887151-943a-40bd-b784-7aaf21dc6b9d")
 	)
 	(junction
-		(at 95.25 76.2)
+		(at 40.64 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "659032fa-a9fd-46e7-a955-61b0824010fa")
+		(uuid "62c8264a-2394-4d63-92d1-4a5a69c83b11")
+	)
+	(junction
+		(at 40.64 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7261e5ac-bc4d-4cb5-9f2a-5a0da56311cd")
+	)
+	(junction
+		(at 39.37 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e0ca935-b22b-4953-833e-15f1d86cab4d")
 	)
 	(junction
 		(at 135.89 127)
@@ -2744,16 +2762,16 @@
 		(uuid "882e0f6e-d623-4a82-ac83-e3a1c13740fe")
 	)
 	(junction
-		(at 39.37 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c5a2474-da82-44c7-a8db-506ec75ebc5a")
-	)
-	(junction
 		(at 123.19 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ef480b7-0feb-468e-a18a-6731f295ca06")
+	)
+	(junction
+		(at 29.21 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3578554-1a78-4252-8caf-5e91c65a0b83")
 	)
 	(junction
 		(at 121.92 36.83)
@@ -2762,22 +2780,16 @@
 		(uuid "a62993b1-6cbb-4b8a-bcd3-a9a8d81d8a5d")
 	)
 	(junction
+		(at 95.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc59731-60ce-48ca-b013-9d61be9f1afe")
+	)
+	(junction
 		(at 110.49 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1b56b88-dfb1-4d55-b5f0-5518e0975733")
-	)
-	(junction
-		(at 40.64 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbb06f8a-e23a-47f3-8f71-624f804c5164")
-	)
-	(junction
-		(at 30.48 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf380fb1-2b2d-4a25-9ea2-8acdc6313a15")
 	)
 	(junction
 		(at 182.88 144.78)
@@ -2798,22 +2810,16 @@
 		(uuid "c98b761d-c571-4c8f-bb73-cef0b4dbdb15")
 	)
 	(junction
+		(at 29.21 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb876863-2855-4ad2-9fdf-185a6acb63c3")
+	)
+	(junction
 		(at 113.03 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d51eb885-44c1-485c-a1ff-fb85ce402223")
-	)
-	(junction
-		(at 96.52 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d91cadca-ae37-46c9-98d8-b320694524db")
-	)
-	(junction
-		(at 43.18 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dacfe9c5-b473-411e-9a58-80ab679f491d")
 	)
 	(junction
 		(at 198.12 46.99)
@@ -2846,16 +2852,16 @@
 		(uuid "eadf744b-df2d-4610-bb8a-46352ac594aa")
 	)
 	(junction
+		(at 43.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee04bd50-158a-4d66-89ae-6ba201cc522c")
+	)
+	(junction
 		(at 109.22 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee775264-7088-4b9a-bb98-f374969b39cd")
-	)
-	(junction
-		(at 40.64 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f61e4a84-ab3a-4a40-a60f-bf3969d07938")
 	)
 	(junction
 		(at 182.88 158.75)
@@ -3075,6 +3081,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 50.8) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9904c7-3cda-4fd7-aed9-09d61728fb2f")
+	)
+	(wire
+		(pts
 			(xy 185.42 76.2) (xy 185.42 78.74)
 		)
 		(stroke
@@ -3095,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 48.26) (xy 30.48 48.26)
+			(xy 25.4 48.26) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3152,16 +3168,6 @@
 			(type default)
 		)
 		(uuid "2dafb82f-40ac-4351-8c92-7545aa2a1a3c")
-	)
-	(wire
-		(pts
-			(xy 109.22 90.17) (xy 185.42 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db0f271-09e3-47e1-8ee0-1e31dd415bb8")
 	)
 	(wire
 		(pts
@@ -3395,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 144.78) (xy 96.52 144.78)
+			(xy 88.9 144.78) (xy 96.52 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3685,16 +3691,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 48.26) (xy 36.83 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881dec43-a87f-4bdc-b5cb-a1726c2f7883")
-	)
-	(wire
-		(pts
 			(xy 96.52 144.78) (xy 96.52 146.05)
 		)
 		(stroke
@@ -3732,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "8f6b1780-f9cb-4ba5-8c18-0254b1f50aeb")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92878c2f-1c4b-4de6-bd25-21dc45a56bb9")
 	)
 	(wire
 		(pts
@@ -3805,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 151.13) (xy 44.45 151.13)
+			(xy 40.64 151.13) (xy 45.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3895,7 +3901,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 46.99) (xy 30.48 48.26)
+			(xy 29.21 52.07) (xy 29.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb8385b-0371-4c96-892e-43180b8edc77")
+	)
+	(wire
+		(pts
+			(xy 29.21 46.99) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3935,16 +3951,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 76.2) (xy 43.18 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d108fb-1fca-40fb-af45-9645da57f60e")
-	)
-	(wire
-		(pts
 			(xy 111.76 135.89) (xy 111.76 139.7)
 		)
 		(stroke
@@ -3975,7 +3981,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 144.78) (xy 44.45 144.78)
+			(xy 29.21 48.26) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef0e70f-3eb2-47c2-b326-d5155138bac9")
+	)
+	(wire
+		(pts
+			(xy 43.18 144.78) (xy 45.72 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3995,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 50.8) (xy 36.83 50.8)
+			(xy 25.4 50.8) (xy 29.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4155,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 151.13) (xy 90.17 151.13)
+			(xy 88.9 151.13) (xy 90.17 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4165,13 +4181,23 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 76.2) (xy 43.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06dc3d7-45a6-43ce-a4ee-d7c0b8dae994")
+	)
+	(wire
+		(pts
 			(xy 43.18 76.2) (xy 45.72 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edcb0968-038c-490d-9530-f9697c614898")
+		(uuid "f2122b90-b15b-42e0-8c19-d2dea47ba026")
 	)
 	(wire
 		(pts
@@ -4589,7 +4615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01620bcd-ae33-49d9-b81f-9e6f2c14ff21")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR05"
 			(at 177.8 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4650,7 +4676,87 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "#PWR010")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 29.21 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11c61863-7d5e-4ff3-8340-6da119c95d32")
+		(property "Reference" "#FLG03"
+			(at 29.21 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 29.2099 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 29.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "740408f1-7b2a-4102-9ae2-c167df51363a")
+		)
+		(instances
+			(project "sata-psu"
+				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4669,7 +4775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1958e327-437c-4e63-8f73-dae91b0d2708")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 193.04 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4837,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4750,7 +4856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2779cea4-a820-4836-ae92-49bd13f7a906")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 175.26 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4960,7 +5066,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4978,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fe99162-8c64-4e4b-b1df-22420deac895")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 19.05 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5039,7 +5145,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5137,7 +5243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad6feb0-c250-4284-b3fa-7c6245840bba")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 193.04 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,7 +5305,93 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R3")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "library:XL4015")
+		(at 67.31 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40d53e0d-ef70-4435-b0e3-9b25f2a1747d")
+		(property "Reference" "U1"
+			(at 67.31 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "XL4015"
+			(at 67.31 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "da8eae2d-9e51-465d-8c97-f15e04090c17")
+		)
+		(pin "1"
+			(uuid "34c59739-c1a1-4012-91d3-4dec240af758")
+		)
+		(pin "4"
+			(uuid "c1cb82c9-1cde-4ffd-a42c-a72871e15add")
+		)
+		(pin "2"
+			(uuid "59c40f20-4081-4e5f-9787-9c316ad3fbb2")
+		)
+		(instances
+			(project "sata-psu"
+				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5217,7 +5409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42cfc4f8-7dc6-4b2c-9d29-7b7f8fb63a1b")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 104.14 54.2446 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5299,7 +5491,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5532,7 +5724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f5a8e03-9925-422d-850a-f2ab27d60c4c")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 194.31 80.3909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +5788,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5614,7 +5806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "551afb59-ec11-4b3f-a41a-5eef9915acdb")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 105.41 121.5546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,7 +5888,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5704,7 +5896,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 30.48 46.99 0)
+		(at 29.21 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5715,7 +5907,7 @@
 		(fields_autoplaced yes)
 		(uuid "59bc4dea-d64f-4e1d-835f-6e59bed5584a")
 		(property "Reference" "#FLG01"
-			(at 30.48 45.085 0)
+			(at 29.21 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5726,17 +5918,19 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 30.48 41.91 0)
+			(at 29.2101 43.18 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5758,7 +5952,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5775,92 +5969,6 @@
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:XL4015")
-		(at 66.04 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6094b177-2fe1-40d3-b31f-4cdadd0e381e")
-		(property "Reference" "U2"
-			(at 66.04 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "XL4015"
-			(at 66.04 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c083931-a996-4abf-ac2a-deca17285dfb")
-		)
-		(pin "1"
-			(uuid "4640cdfc-6ebe-4f8a-891c-f335e68c5de9")
-		)
-		(pin "3"
-			(uuid "6b453001-cfe7-488b-9e72-b77e057e2e02")
-		)
-		(pin "4"
-			(uuid "6a22b204-1786-479c-9561-617acfc37eef")
-		)
-		(instances
-			(project "sata-psu"
-				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5957,7 +6065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e155da6-ca10-4ecd-8086-6904d91c7521")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 193.04 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +6127,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6037,7 +6145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79dd4f9a-8f5a-4c81-9b81-856ce7420505")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 129.54 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6099,7 +6207,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6118,7 +6226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89273260-b106-4ad6-bb94-1ced76951d1b")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 182.88 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,7 +6436,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6346,7 +6454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "923365d6-a42c-45a6-80d3-5b17bd6394d8")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 109.22 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -6406,7 +6514,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6424,7 +6532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99a4e006-f7d7-4bb4-980d-b24a340d28dd")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR06"
 			(at 273.05 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6485,7 +6593,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "#PWR014")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6504,7 +6612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99c94eb8-d722-4fb4-971b-d9fe50fbb4b3")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 119.38 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +6676,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6586,7 +6694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a3f42ec-d6f8-4253-8341-32f1a38218dc")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 130.81 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6648,7 +6756,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6911,6 +7019,92 @@
 		)
 	)
 	(symbol
+		(lib_id "library:XL4015")
+		(at 67.31 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb8b4af-31f7-46b2-8710-34619fe86d2c")
+		(property "Reference" "U2"
+			(at 67.31 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "XL4015"
+			(at 67.31 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3a0217c9-d555-464b-8491-b6a5e81e6eb1")
+		)
+		(pin "1"
+			(uuid "fde0c080-6f22-428b-b136-ce1b3dc8b472")
+		)
+		(pin "4"
+			(uuid "7611e8d6-a5d0-4dc4-ba63-03496e1d10c3")
+		)
+		(pin "2"
+			(uuid "1d0e49b0-6111-42a8-8fdd-83636b506597")
+		)
+		(instances
+			(project "sata-psu"
+				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 123.19 110.49 0)
 		(mirror x)
@@ -6923,7 +7117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a16df1-2a47-4f58-8089-8b7dd991b402")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 120.65 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6987,7 +7181,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7005,7 +7199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f0052b-4065-4ff1-98a4-e55d75035d0f")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 99.06 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7215,7 +7409,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7233,7 +7427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca588024-d1a1-4aae-9851-b61aecc8fa02")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 97.79 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7443,7 +7637,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7461,7 +7655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a2ab21-be7c-4040-be93-12609552a83a")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 106.68 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,93 +7719,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "library:XL4015")
-		(at 67.31 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d52ccdb0-2a83-4104-b80a-e3a98fa72bbf")
-		(property "Reference" "U1"
-			(at 67.31 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "XL4015"
-			(at 67.31 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44cb853f-023f-40b8-a7f1-a4166713e2d6")
-		)
-		(pin "1"
-			(uuid "f9dbe356-892b-4cd9-bfee-9fe79cb04a13")
-		)
-		(pin "3"
-			(uuid "6c68694d-ced8-4994-b1e9-5a21f989a7ce")
-		)
-		(pin "4"
-			(uuid "132e4c3b-598e-481c-8a6c-6ca30ede392e")
-		)
-		(instances
-			(project "sata-psu"
-				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "U1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7629,7 +7737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da4746c9-bbd5-4c00-bd3f-f7353248de1e")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 129.54 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7799,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7709,7 +7817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba4629c-f41b-4e1d-ae86-a2efd5005159")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 107.95 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +7881,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7791,7 +7899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcad2197-ed01-4564-aca3-1331eef07442")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 186.69 148.9709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7855,7 +7963,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7874,7 +7982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df37f4d0-2d50-4efd-9781-35dc60726de6")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 193.04 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7936,7 +8044,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8033,7 +8141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb778cc-bd36-4504-b8f0-8f5403f595c8")
-		(property "Reference" "R10"
+		(property "Reference" "R4"
 			(at 130.81 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8095,7 +8203,7 @@
 		(instances
 			(project "sata-psu"
 				(path "/1d7c372b-e163-454a-b25b-eeda6b106665"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
